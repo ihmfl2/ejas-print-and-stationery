@@ -176,3 +176,20 @@
     font-size: 14px;
     color: #FFFFFF;
 }
+
+/* Hover Effects */
+/* Table Hover */
+.pricing-table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.pricing-table tbody tr:hover {
+    background-color: #EAF0F6;
+}
+
+/* Binding Card Hover */
+.binding-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 22px rgba(30, 58, 95, 0.15);
+}
+
