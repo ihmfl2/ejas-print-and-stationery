@@ -15,17 +15,26 @@
 }
 
 .item {
-    background-color: #c0dafb;
+    background-color: #ddebfd;
     border-radius: 6px;
     padding: 8px;
-    text-align: center;
-    align-content: center;
+    text-align: left;
     transition: all 0.2s ease;
+    max-width: 256px;
+    line-height: normal;
+
+    h3 {
+        margin: 0px 4px;
+    }
+
+    p {
+        margin: 4px;
+    }
 }
 
 .item:hover {
     transform: scale(1.1) translate(0px, -12px);
-    background-color: #7ab2fb;
+    background-color: #93bdf4;
 }
 
 .item:active {
@@ -35,7 +44,7 @@
 
 img {
     border-radius: 8px;
-    height: 240px ;
+    height: 240px;
 }
 
 h1 {
