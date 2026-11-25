@@ -84,7 +84,7 @@
 }
 
 /* Footer */
-.footer {
+footer {
     background-color: #1E3A5F;
     color: #FFFFFF;
     text-align: center;
@@ -92,6 +92,6 @@
     margin-top: 30px;
 }
 
-.footer p {
+footer p {
     margin: 5px;
 }
