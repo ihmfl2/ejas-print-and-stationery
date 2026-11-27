@@ -140,7 +140,7 @@
 
 .bundle-list li::before {
     content: "✓";
-    color: #5D9C8C;
+    color: #1E3A5F;
     font-weight: bold;
     margin-right: 10px;
 }
@@ -160,7 +160,7 @@
 
 
 .bundle-card.featured {
-    border: 2px solid #A7CFC5;
+    border: 2px solid #a7a7cf;
 }
 
 .bundle-card.featured .bundle-category {
@@ -185,7 +185,7 @@
     background-color: #ffffff;
     padding: 30px;
     border-radius: 12px;
-    border: 1px solid #D5E5DF;
+    border: 1px solid #1E3A5F;
 }
 
 .category-card h3 {
