@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+                        "a1 a2 a3"
+                        "a4 a5 a6"
+    ;
+    gap: 16px;
+}
+
+.item {
+    background-color: #c0dafb;
+    border-radius: 6px;
+    padding: 8px;
+    text-align: center;
+    align-content: center;
+    transition: all 0.2s ease;
+}
+
+.item:hover {
+    transform: scale(1.1) translate(0px, -12px);
+    background-color: #7ab2fb;
+}
+
+.item:active {
+    transform: scale(0.9) translate(0px, 32px);
+    background-color: #448ef0;
+}
+
+img {
+    border-radius: 8px;
+    height: 240px ;
+}
+
+h1 {
+    text-align: center;
+    margin: 8px 0px;
+}
+
+/* di sini buat element div-nya */
+.a1 {grid-area: a1;}
+.a2 {grid-area: a2;}
+.a3 {grid-area: a3;}
+.a4 {grid-area: a4;}
+.a5 {grid-area: a5;}
+.a6 {grid-area: a6;}

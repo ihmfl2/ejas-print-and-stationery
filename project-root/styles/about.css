@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+    margin: 16px;
+    font-size: 48px;
+}
+
+#content {
+    display: flex;  
+    flex-direction: column;
+    gap: 72px;
+}
+
+section{
+    background: rgb(255, 255, 255)0;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.para {
+    margin: 16px;
+    width: 800px;
+}
+
+.hero {
+    text-align: left;
+}
+
+.mision{
+    text-align: left;
+}
+
+.about {
+    text-align: right;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .table {
+        padding: 12px 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 80%;
+    } 
+
+    h1{
+        margin-top: 0px;
+    }
+}
+
+
+.closing {
+    margin: 12px;
+    text-align: center;
+    
+    p {
+        margin: 32px 0px;
+    }
+}
+
+.table {
+    border: 1px solid rgb(181, 220, 254);
+    border-radius: 12px;
+}
