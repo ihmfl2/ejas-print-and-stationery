@@ -1,0 +1,195 @@
+
+/* Pricing Hero */
+.pricing-hero {
+    background-color: #EAF0F6;
+    text-align: center;
+    padding: 70px 30px;
+}
+
+.pricing-label {
+    color: #2E5682;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.pricing-hero h1 {
+    font-size: 38px;
+    color: #1E3A5F;
+    margin-bottom: 15px;
+}
+
+.pricing-hero p {
+    color: #2E5682;
+    line-height: 1.8;
+}
+
+/* Pricing Sections */
+.pricing-section {
+    padding: 55px 8%;
+    background-color: #FFFFFF;
+}
+
+.section-heading {
+    margin-bottom: 25px;
+}
+
+.section-heading span {
+    color: #2E5682;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.section-heading h2 {
+    color: #1E3A5F;
+    font-size: 27px;
+    margin: 8px 0;
+}
+
+.section-heading p {
+    color: #2E5682;
+    line-height: 1.7;
+}
+
+/* Pricing Table */
+.pricing-table-wrapper {
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(30, 58, 95, 0.10);
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+.pricing-table caption {
+    background-color: #EAF0F6;
+    color: #1E3A5F;
+    padding: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.pricing-table th {
+    background-color: #1E3A5F;
+    color: #FFFFFF;
+    padding: 17px 20px;
+}
+
+.pricing-table td {
+    padding: 17px 20px;
+    color: #1E3A5F;
+    border-bottom: 1px solid #EAF0F6;
+}
+
+/* Binding Cards */
+.binding-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.binding-card {
+    position: relative;
+    background-color: #FFFFFF;
+    border: 1px solid #EAF0F6;
+    border-radius: 14px;
+    padding: 30px 25px;
+    box-shadow: 0 5px 15px rgba(30, 58, 95, 0.08);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.binding-number {
+    color: #2E5682;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.binding-card h3 {
+    color: #1E3A5F;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.binding-card p {
+    color: #2E5682;
+    font-size: 14px;
+    line-height: 1.8;
+    min-height: 75px;
+}
+
+.binding-price {
+    color: #2E5682;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.binding-card > span {
+    color: #2E5682;
+    font-size: 12px;
+}
+
+/* Featured Card */
+.binding-card.featured {
+    background-color: #EAF0F6;
+    border: 2px solid #2E5682;
+}
+
+/* Information */
+.pricing-note {
+    background-color: #EAF0F6;
+    margin: 20px 8% 60px;
+    padding: 30px 35px;
+    border-radius: 12px;
+}
+
+.pricing-note h2 {
+    color: #1E3A5F;
+    margin-bottom: 15px;
+}
+
+.pricing-note ul {
+    padding-left: 22px;
+    color: #2E5682;
+    line-height: 2;
+}
+
+/* Footer */
+footer {
+    background-color: #1E3A5F;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 5px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/* Hover Effects */
+/* Table Hover */
+.pricing-table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.pricing-table tbody tr:hover {
+    background-color: #EAF0F6;
+}
+
+/* Binding Card Hover */
+.binding-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 22px rgba(30, 58, 95, 0.15);
+}
+
